@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Special Elite', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+}
+body, html{
+    width: 100%;
+    height: 500px;
+    background-color: #2b2b2b;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+h1, div{
+    color: aliceblue;
+    text-align: center;
+}
+.quadrado{
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    background-color: #555555;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    font-size: 40px;
+}
+button{
+    background-color: #555555;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px rgb(107, 107, 107) solid;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: aliceblue;
+    color: #555555;
+    border: 1px rgb(107, 107, 107) solid;
+}   
