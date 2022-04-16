@@ -113,5 +113,5 @@ function reiniciar(){
         quadrado.innerHTML = '-';
     }
 
-    mudarJogador('X');
+    mudarJogador('x');
 }
