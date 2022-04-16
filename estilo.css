@@ -28,6 +28,7 @@ h1, div{
     align-items: center;
     padding: 10px;
     margin: 5px;
+    color: #555555;
     font-size: 40px;
 }
 button{
@@ -40,9 +41,11 @@ button{
     cursor: pointer;
     border: 1px rgb(107, 107, 107) solid;
     transition: 0.5s;
+    font-size: large;
 }
 button:hover{
     background-color: aliceblue;
     color: #555555;
     border: 1px rgb(107, 107, 107) solid;
+    font-size: larger;
 }   
