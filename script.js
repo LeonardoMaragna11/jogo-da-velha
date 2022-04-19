@@ -8,7 +8,7 @@ function escolherQuadrado(id){
     if (vencedor !== null) {
         return;
     }
-
+    
     var quadrado = document.getElementById(id);
     if (quadrado.innerHTML !== '-') {
         return;
@@ -109,7 +109,7 @@ function reiniciar(){
     for (var i = 1; i <= 9; i++) {
         var quadrado = document.getElementById(i);
         quadrado.style.background = '#555'
-        quadrado.style.color = 'aliceblue';
+        quadrado.style.color = '#555';
         quadrado.innerHTML = '-';
     }
 
